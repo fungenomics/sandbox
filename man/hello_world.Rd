@@ -10,9 +10,6 @@ hello_world(n_exclamation)
 \item{n_exclamation}{Numeric, integer indicating how many exclamation marks
 to use}
 }
-\value{
-
-}
 \description{
 hello world!
 }
