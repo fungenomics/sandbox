@@ -39,7 +39,6 @@ fibonacci_min <- function() {
 }
 
 
-
 #' Get the nth element of the fibonacci vector
 #'
 #' @param n Numeric, index of the vector to retrieve
@@ -53,3 +52,15 @@ get_fibonacci_n <- function(n) {
     return(fibonacci[n])
 
 }
+#' divide fibonacci sequence by constant n
+#'
+#' @param n Numberic, number to divide each element in sequence by
+#'
+#' @export 
+#' 
+#' @examples
+#' fibbonacci_divide_n(2)
+fibbonaci_divide_n <- function(n) {
+	return(fibonnaci/n)
+}
+
