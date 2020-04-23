@@ -37,3 +37,19 @@ fibonacci_min <- function() {
     return(min(fibonacci))
 
 }
+
+
+
+#' Get the nth element of the fibonacci vector
+#'
+#' @param n Numeric, index of the vector to retrieve
+#'
+#' @return Numeric, nth element of the vector
+#' @export
+#'
+#' @examples get_fibonacci_n(4)
+get_fibonacci_n <- function(n) {
+
+    return(fibonacci[n])
+
+}
