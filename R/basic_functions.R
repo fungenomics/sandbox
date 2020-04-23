@@ -18,6 +18,18 @@ hello_world <- function(n_exclamation) {
 }
 
 
+#' add two numbers together
+#'
+#' @param x Numeric, parameter 1
+#' @param y Numeric, parameter 2
+#' 
+#' @export
+add <- function(x, y) {
+
+  x + y
+
+}
+
 
 
 fibonacci_min <- function() {
