@@ -1,2 +1,2 @@
 # Sandbox toy repository
-A sandbox to test our workflow
+A sandbox to test & demo our github / R package development workflow
