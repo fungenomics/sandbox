@@ -49,6 +49,8 @@ fibonacci_min <- function() {
 #' @examples get_fibonacci_n(4)
 get_fibonacci_n <- function(n) {
 
+    if (n < 1) stop("Please choose an index of 1 or greater")
+
     return(fibonacci[n])
 
 }
