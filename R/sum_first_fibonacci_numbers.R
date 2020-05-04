@@ -9,6 +9,9 @@
 #' sum_n_first_fibonacci_numbers(5)
 #' sum_n_first_fibonacci_numbers(8)
 sum_n_first_fibonacci_numbers <- function(n){
+  if(n < 0){
+    stop("Please use a positive number")
+  }
   if(length(fibonacci) < n){
     print(paste0("Fibonacci vector's length is ", length(fibonacci), ". Summing the ", length(fibonacci), " first numbers instead."))
     return(sum(fibonacci))
