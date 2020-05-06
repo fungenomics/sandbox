@@ -4,9 +4,9 @@
 #'
 #' @return print a prompt with "Sum of the first nth of Fibonacci numbers of power 2:", 
 #' along with the sum square value.
-#' @export 
+#' @export
 #'
-#' @examples 
+#' @examples
 #' sum_square_fibo(2)
 #' sum_square_fibo(3)
 sum_square_fibo <- function(n) {
