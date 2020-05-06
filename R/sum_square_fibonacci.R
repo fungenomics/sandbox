@@ -1,4 +1,14 @@
-#
+#' Sum up the first nth fibonacci numbers with power 2.
+#'
+#' @param n numeric, positive integer
+#'
+#' @return print a prompt with "Sum of the first nth of Fibonacci numbers of power 2:", 
+#' along with the sum square value.
+#' @export
+#'
+#' @examples
+#' sum_square_fibo(2)
+#' sum_square_fibo(3)
 sum_square_fibo <- function(n) {
   Fibonacci <- numeric(n)
   Fibonacci[1] <- Fibonacci[2] <- 1
