@@ -4,9 +4,7 @@
 \name{fibonacci}
 \alias{fibonacci}
 \title{Vector with Fibonacci sequence}
-\format{
-Numeric vector with 9 elements
-}
+\format{Numeric vector with 9 elements}
 \usage{
 fibonacci
 }
