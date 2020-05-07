@@ -13,5 +13,5 @@ fibonacci_divide_n(n)
 divide fibonacci sequence by constant n
 }
 \examples{
-fibbonacci_divide_n(2)
+fibonacci_divide_n(2)
 }

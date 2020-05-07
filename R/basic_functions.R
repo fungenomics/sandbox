@@ -59,7 +59,7 @@ get_fibonacci_n <- function(n) {
 #' @export 
 #' 
 #' @examples
-#' fibbonacci_divide_n(2)
+#' fibonacci_divide_n(2)
 fibonacci_divide_n <- function(n) {
 	return(fibonacci/n)
 }
