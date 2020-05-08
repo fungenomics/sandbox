@@ -13,6 +13,8 @@
 #'
 fibonacci_log_n <- function(n) {
 
+    if(n < 0) stop("Please use a positive number")
+
     return(log(fibonacci, base = n))
 
 }
