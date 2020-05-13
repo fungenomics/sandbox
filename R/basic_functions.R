@@ -22,7 +22,7 @@ hello_world <- function(n_exclamation) {
 #'
 #' @param x Numeric, parameter 1
 #' @param y Numeric, parameter 2
-#' 
+#'
 #' @export
 add <- function(x, y) {
 
@@ -56,8 +56,8 @@ get_fibonacci_n <- function(n) {
 #'
 #' @param n Numberic, number to divide each element in sequence by
 #'
-#' @export 
-#' 
+#' @export
+#'
 #' @examples
 #' fibonacci_divide_n(2)
 fibonacci_divide_n <- function(n) {
