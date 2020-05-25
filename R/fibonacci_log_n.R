@@ -9,7 +9,9 @@
 #' @examples
 #' fibonacci_log_n(10)
 #' fibonacci_log_n(exp(1))
-#' fibonacci_log_n(2)
+#'
+#' # NOT RUN
+#' # fibonacci_log_n(2)
 #'
 fibonacci_log_n <- function(n) {
 

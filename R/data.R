@@ -15,3 +15,9 @@
 #'
 #' @format Matrix with 100 rows and 9 columns
 "fibonacci_mat"
+
+
+#' Mtcars dataset with mpg column mult by 2
+#'
+#' @format Dataframe
+"mtcars2"

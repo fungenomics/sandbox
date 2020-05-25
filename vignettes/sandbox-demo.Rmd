@@ -1,0 +1,27 @@
+---
+title: "sandbox-demo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{sandbox-demo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(sandbox)
+```
+
+Here is a demo:
+
+```{r demo_log}
+
+fibonacci_log_n(2)
+
+```
